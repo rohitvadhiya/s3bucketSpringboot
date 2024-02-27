@@ -1,0 +1,14 @@
+amazon:
+  s3:
+    bucket:
+      logo:
+        asset:
+          path: logo
+      domain:
+        url: ${YOUR_URL}
+      name: ${BUCKET_NAME}
+    region: ${REGION_NAME}
+    access:
+      key: ${YOUR_ACCESS_KEY}
+    secret:
+      key: ${YOUR_SECRAT_KEY}
